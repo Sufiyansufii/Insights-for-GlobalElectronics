@@ -5,25 +5,40 @@ This project aims to conduct a comprehensive Exploratory Data Analysis (EDA) on 
 
 ### Data Set
 Source: Global Electronics' internal databases
+
+
 Format: Structured data stored in a SQL database
+
+
 Required Fields: Customer demographics, product specifications, sales transactions, store details, and currency exchange rates
-Task List
+
+### Task List
+
 Set Up Environment: Install required libraries and set up the project environment.
 
 Programming: Python, SQL
+
+
 Libraries Used: pandas, numpy, SQLAlchemy, Power BI, datetime, Matplotlib, Seaborn
+
 Data Cleaning and Preprocessing:
 
 Check for missing values and handle them appropriately.
 Convert data types where necessary (e.g., dates, numerical values).
 Merge datasets where necessary for analysis (e.g., linking sales data with product and customer data).
+
+
 Data Storage:
 
 Insert the preprocessed data into an SQL database by creating relevant tables for each data source.
 The database schema includes the following tables: customers, products, sales, stores, and currency_exchange.
+
+
 Power BI Visualization:
 
 Connect SQL to Power BI, import the data, and create interactive dashboards.
+
+
 Develop SQL Queries:
 
 Formulate and execute 10 SQL queries to extract key insights from the data. These queries should address important business questions and support the analysis steps below.
@@ -59,13 +74,23 @@ Geographical Analysis: Analyze sales by store location to identify high-performi
 ### Use Cases
 
 Marketing Strategies: Enhance marketing strategies by understanding customer demographics and purchasing behaviors.
+
+
 Inventory Management: Optimize inventory management based on sales patterns and product popularity.
+
+
 Sales Forecasting: Improve sales forecasting through analysis of historical sales data and trends.
+
+
 Store Operations: Inform store expansion and optimization decisions based on store performance and geographical analysis.
+
+
 Pricing Strategies: Develop better international pricing strategies by understanding the impact of currency exchange rates on sales.
 
 ### Future Enhancements
 Real-Time Updates: Implement real-time data updates to keep the information current.
+
+
 Enhanced Filtering: Add more filtering options and advanced search capabilities in Power BI.
 
 ### Conclusion
